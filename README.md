@@ -14,5 +14,5 @@
 <br><br><br>
 <h3>처음 공부하시는 분들에게 추천합니다</h3>
 - [Infren 김영한 로드맵](https://www.inflearn.com/roadmaps/373)
-- [스프링 입문을 위한 자바 객체지향의 원리와 이해](https://product.kyobobook.co.kr/detail/S000001628116)
+- 스프링 입문을 위한 자바 객체지향의 원리와 이해 (https://product.kyobobook.co.kr/detail/S000001628116)
 >> 스프링 공부 중 읽었던 책입니다 자바 T 메모리 구조와 객체지향에 대해 알 수 있어 추천드립니다.
