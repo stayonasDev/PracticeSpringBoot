@@ -1,6 +1,6 @@
-package stayonasDev.practice.demo.repository;
+package stayonasDev.practice.demo.project1.repository;
 
-import stayonasDev.practice.demo.domain.Member;
+import stayonasDev.practice.demo.project1.domain.Member;
 
 import java.util.HashMap;
 import java.util.List;
@@ -15,7 +15,8 @@ public class MemoryMemberRepository implements MemberRepository{
 
     @Override
     public void add(Member member) {
-        memberRepository.put(++sequence, member);
+        member.setId(++sequence);
+        memberRepository.put(member.getId(), member);
     }
 
 

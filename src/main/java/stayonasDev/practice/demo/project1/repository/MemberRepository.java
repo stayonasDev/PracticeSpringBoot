@@ -1,6 +1,6 @@
-package stayonasDev.practice.demo.repository;
+package stayonasDev.practice.demo.project1.repository;
 
-import stayonasDev.practice.demo.domain.Member;
+import stayonasDev.practice.demo.project1.domain.Member;
 
 import java.util.List;
 

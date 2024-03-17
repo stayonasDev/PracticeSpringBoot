@@ -1,14 +1,13 @@
-package stayonasDev.practice.demo.domain;
+package stayonasDev.practice.demo.project1.domain;
 
 import java.time.LocalDate;
 
 public class Member {
-    Long id;
+    Long id = 0L;
     String name;
     LocalDate joinDate;
 
-    public Member(Long id, String name, LocalDate joinDate) {
-        this.id = id;
+    public Member( String name, LocalDate joinDate) {
         this.name = name;
         this.joinDate = joinDate;
     }
@@ -35,5 +34,14 @@ public class Member {
 
     public void setJoinDate(LocalDate joinDate) {
         this.joinDate = joinDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", joinDate=" + joinDate +
+                '}';
     }
 }
